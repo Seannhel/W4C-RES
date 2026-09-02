@@ -68,3 +68,62 @@ a {
     background: none;
     font-size: 28px;
 }
+
+/* Hero */
+
+.hero {
+    padding: 60px 0;
+}
+
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.hero-text {
+    text-align: center;
+}
+
+.eyebrow {
+    color: var(--green);
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.hero h1 {
+    font-size: 42px;
+    line-height: 1.1;
+}
+
+.hero-text p {
+    font-size: 18px;
+}
+
+.button {
+    display: inline-block;
+    padding: 12px 25px;
+    background: var(--dark);
+    color: var(--white);
+    border-radius: 5px;
+}
+
+.button:hover {
+    background: var(--green);
+}
+
+.hero-image {
+    display: flex;
+    justify-content: center;
+}
+
+.coffee-placeholder {
+    width: 100%;
+    min-height: 280px;
+    display: grid;
+    place-items: center;
+    background: var(--green);
+    border-radius: 12px;
+    font-size: 100px;
+}
