@@ -208,3 +208,41 @@ blockquote {
     display: flex;
     gap: 20px;
 }
+
+/* Tablet */
+
+@media (min-width: 768px) {
+    .menu-button {
+        display: none;
+    }
+
+    .desktop-nav {
+        display: block;
+    }
+
+    .hero-content {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .hero-text {
+        flex: 1;
+        text-align: left;
+    }
+
+    .hero-image {
+        flex: 1;
+    }
+
+    .feature-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .shop {
+        text-align: left;
+    }
+
+    .footer-content {
+        flex-direction: row;
+    }
+}
