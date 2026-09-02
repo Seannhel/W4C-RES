@@ -127,3 +127,34 @@ a {
     border-radius: 12px;
     font-size: 100px;
 }
+
+/* Features */
+
+.features {
+    padding: 60px 0;
+    background: var(--white);
+}
+
+.section-heading {
+    text-align: center;
+}
+
+.feature-grid {
+    display: grid;
+    gap: 20px;
+}
+
+.feature-card {
+    padding: 25px;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+
+.feature-card:hover {
+    transform: translateY(-5px);
+}
+
+.feature-icon {
+    font-size: 40px;
+}
