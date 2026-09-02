@@ -28,3 +28,43 @@ a {
     max-width: 1200px;
     margin: auto;
 }
+/* Header */
+
+.site-header,
+.site-footer {
+    background: var(--white);
+    padding: 20px 0;
+}
+
+.header-content,
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.desktop-nav {
+    display: none;
+}
+
+.desktop-nav a {
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+.desktop-nav a:hover,
+.social-links a:hover,
+.menu-button:hover {
+    color: var(--green);
+}
+
+.menu-button {
+    border: 0;
+    background: none;
+    font-size: 28px;
+}
