@@ -257,3 +257,15 @@ blockquote {
     .hero h1 {
         font-size: 60px;
     }
+    
+    .coffee-placeholder {
+        min-height: 400px;
+        font-size: 130px;
+    }
+
+    .features,
+    .testimonial {
+        padding: 90px 0;
+    }
+}
+
