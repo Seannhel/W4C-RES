@@ -246,3 +246,14 @@ blockquote {
         flex-direction: row;
     }
 }
+
+/* Desktop */
+
+@media (min-width: 1024px) {
+    .hero {
+        padding: 100px 0;
+    }
+
+    .hero h1 {
+        font-size: 60px;
+    }
