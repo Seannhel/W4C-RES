@@ -196,3 +196,15 @@ blockquote {
     background: var(--white);
     color: var(--dark);
 }
+
+/* Footer */
+
+.footer-content {
+    flex-direction: column;
+    gap: 15px;
+}
+
+.social-links {
+    display: flex;
+    gap: 20px;
+}
