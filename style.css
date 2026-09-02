@@ -158,3 +158,27 @@ a {
 .feature-icon {
     font-size: 40px;
 }
+
+
+/* Testimonial */
+
+.testimonial {
+    padding: 60px 0;
+}
+
+.quote-card {
+    padding: 40px 20px;
+    background: var(--green);
+    color: var(--white);
+    text-align: center;
+    border-radius: 10px;
+}
+
+.quote-mark {
+    font-size: 60px;
+}
+
+blockquote {
+    font-size: 22px;
+    font-style: italic;
+}
